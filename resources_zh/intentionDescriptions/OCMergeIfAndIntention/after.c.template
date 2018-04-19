@@ -1,0 +1,3 @@
+<spot>if (!a && b)</spot> {
+  return true;
+}

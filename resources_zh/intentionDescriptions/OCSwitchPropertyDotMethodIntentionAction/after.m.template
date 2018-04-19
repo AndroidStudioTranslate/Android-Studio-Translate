@@ -1,0 +1,14 @@
+@interface MyClass: NSObject
+@property int prop;
+@end
+
+int foo(MyClass* c) {
+  <spot>[c setProp: 1];</spot>
+  <spot>return [c prop];</spot>
+}
+
+int bar(MyClass* c) {
+  <spot>c.prop = 1;</spot>
+  <spot>return c.prop;</spot>
+}
+

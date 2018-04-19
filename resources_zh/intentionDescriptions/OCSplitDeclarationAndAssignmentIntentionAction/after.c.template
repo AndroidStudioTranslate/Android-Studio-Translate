@@ -1,0 +1,2 @@
+int i;
+<spot>i = 0;</spot>

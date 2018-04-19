@@ -1,0 +1,5 @@
+class C {
+  <spot>void foo() {
+
+  }</spot>
+};

@@ -1,0 +1,16 @@
+@interface i: NSObject {
+  int var1;
+  <spot>int var2;</spot>
+}
+- ( id )initWithVar1: ( int )aVar1;
+
+@end
+
+@implementation i
+- ( id )initWithVar1: ( int )aVar1 {
+  if ( self = [ super init ] ) {
+    var1 = aVar1;
+  }
+  return self;
+}
+@end

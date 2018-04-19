@@ -1,0 +1,5 @@
+#define ASSERT(cond) if (!cond) NSLog(@"%s is false", #cond)
+
+void fun(int x) {
+  <spot>ASSERT(x > 0)</spot>;
+}

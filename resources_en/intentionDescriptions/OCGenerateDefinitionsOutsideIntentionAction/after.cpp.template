@@ -1,0 +1,7 @@
+class C {
+  void foo();
+};
+
+<spot>void C::foo() {
+
+}</spot>

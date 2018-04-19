@@ -1,0 +1,8 @@
+@interface i: NSObject {
+  <spot>NSString *_string</spot>;
+}
+
+@end
+
+@implementation i
+@end

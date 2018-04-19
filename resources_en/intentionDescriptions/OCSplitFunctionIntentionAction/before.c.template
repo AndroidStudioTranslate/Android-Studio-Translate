@@ -1,0 +1,3 @@
+double foo(int x, double y) {
+    return x + y;
+}

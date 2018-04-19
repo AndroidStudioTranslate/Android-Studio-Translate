@@ -1,0 +1,10 @@
+<spot>
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wmultichar"
+</spot>
+
+char b = 'df';
+
+<spot>
+#pragma clang diagnostic pop
+</spot>

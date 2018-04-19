@@ -1,0 +1,1 @@
+int result = <spot>++i</spot> + 1;

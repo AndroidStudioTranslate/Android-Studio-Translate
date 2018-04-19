@@ -1,0 +1,16 @@
+<html>
+<body>
+This inspection reports the owned objects stored in the instance variables which are not released.<br>
+You take ownership of an object if you:<br>
+&nbsp;- create it using a method whose name begins with <i>alloc</i> or <i>new</i> or contains <i>copy</i><br>
+&nbsp;- send it a <i>retain</i> message<br>
+&nbsp;- set the value of the property which has the attribute <i>retain</i> or <i>copy</i> and is synthesized with the instance variable<br>
+To relinquish ownership of an object you:<br>
+&nbsp;- send it a <i>release</i> or <i>autorelease</i> message<br>
+&nbsp;- assign <b>nil</b> to the property, that is synthesized with the instance variable<br>
+If ARC (Automatic Reference Counting) is on, this inspection is disabled.
+<br><br>
+If the checkbox below is switched off, you may release the instance variables an ay method of the class. If it's switched on, you may release them
+in <i>dealloc</i>, <i>tearDown</i>, <i>applicationWillTerminate:</i>, <i>didTurnIntoFault</i> methods and any method that can be called from them.
+</body>
+</html>

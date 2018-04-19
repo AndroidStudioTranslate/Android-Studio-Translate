@@ -1,0 +1,8 @@
+class MyClass {
+private:
+    int x;
+    int y;
+
+    <spot>MyClass(int x, int y):x(x), y(y)</spot> {
+    }
+};

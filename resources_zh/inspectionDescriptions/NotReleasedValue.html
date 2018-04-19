@@ -1,0 +1,11 @@
+<html>
+<body>
+This inspection reports the owned objects stored in the local variables or parameters that are not released later or are overwritten by another value before they are released.<br>
+&nbsp;- You take ownership of an object if you create it using a method whose name begins with <i>alloc</i> or
+<i>new</i> or contains <i>copy</i>, or if you send it a <i>retain</i> message.<br>
+&nbsp;- You use <i>release</i> or <i>autorelease</i> to relinquish ownership of an object<br>
+Objective-C memory management rules require each owned object to be released or autoreleased, see
+<a href="http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/MemoryMgmt/MemoryMgmt.html">Memory Management Programming Guide</a>.<br>
+If ARC (Automatic Reference Counting) is on, this inspection is disabled.
+</body>
+</html>

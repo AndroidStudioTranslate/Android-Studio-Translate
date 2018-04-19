@@ -1,0 +1,5 @@
+#define ASSERT(cond) if (!cond) Log(@"%s is false", #cond)
+
+void fun(int x) {
+  <spot>if (!x > 0) Log(@ "%s is false", "x > 0")</spot>;
+}

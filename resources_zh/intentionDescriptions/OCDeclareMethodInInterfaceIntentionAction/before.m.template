@@ -1,0 +1,7 @@
+@interface i: NSObject
+@end
+
+@implementation i
+<spot>-(void) foo: (int) param</spot> {
+}
+@end

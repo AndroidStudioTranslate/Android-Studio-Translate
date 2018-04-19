@@ -1,0 +1,8 @@
+<html>
+<body>
+  This inspection reports <i>dealloc</i> messages sent directly.<br>You never send a <i>dealloc</i> message directly. Instead, an object's <i>dealloc</i> method is invoked indirectly through the <i>release
+  NSObject</i> protocol method (if the <i>release</i> message results in the receiver's retain count becoming 0).
+  See <a href="https://developer.apple.com/library/ios/documentation/cocoa/conceptual/MemoryMgmt/Articles/MemoryMgmt.html">Memory Management Programming Guide</a>
+  for more details on the use of these methods.
+</body>
+</html>

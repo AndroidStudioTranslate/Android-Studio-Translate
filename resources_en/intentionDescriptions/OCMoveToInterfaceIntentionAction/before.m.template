@@ -1,0 +1,13 @@
+@interface Class
+@end
+
+@interface Class()
+<spot>
+-(void) foo;
+
+@property id prop;
+</spot>
+@end
+
+@implementation Class
+@end

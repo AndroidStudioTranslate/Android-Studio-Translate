@@ -1,0 +1,1 @@
+for(<spot>map<int,int>::iterator</spot> iter = values.begin(); iter != values.end(); ++iter)

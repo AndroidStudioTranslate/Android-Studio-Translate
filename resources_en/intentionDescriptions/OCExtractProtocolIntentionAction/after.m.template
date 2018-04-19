@@ -1,0 +1,14 @@
+@interface Class<spot><NewProtocol></spot>
+@end
+
+@implementation Class
+@end
+
+
+@protocol NewProtocol
+<spot>
+-(void) foo;
+
+@property id prop;
+</spot>
+@end

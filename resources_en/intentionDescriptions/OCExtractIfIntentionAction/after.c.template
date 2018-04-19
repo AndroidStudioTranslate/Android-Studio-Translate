@@ -1,0 +1,7 @@
+void fun(int x) {
+    <spot>if (x > 3) {</spot>
+        if (x < 7) {
+            x++;
+        }
+    }
+}

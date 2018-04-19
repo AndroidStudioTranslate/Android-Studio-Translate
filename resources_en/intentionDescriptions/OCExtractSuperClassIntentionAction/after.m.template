@@ -1,0 +1,13 @@
+@interface BaseClass
+<spot>
+-(void) foo;
+
+@property id prop;
+</spot>
+@end
+
+@interface Class: <spot>BaseClass</spot>
+@end
+
+@implementation Class
+@end

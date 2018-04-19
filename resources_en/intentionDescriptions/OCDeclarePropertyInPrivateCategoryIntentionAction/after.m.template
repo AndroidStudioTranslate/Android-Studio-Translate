@@ -1,0 +1,10 @@
+@interface i: NSObject
+@property (<spot>readonly</spot>, retain) NSString* string;
+@end
+
+@interface i ()
+@property (<spot>readwrite</spot>, retain) NSString* string;
+@end
+
+@implementation i
+@end

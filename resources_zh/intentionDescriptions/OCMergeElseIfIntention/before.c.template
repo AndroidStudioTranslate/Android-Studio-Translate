@@ -1,0 +1,11 @@
+if (a == 0) {
+  return 0;
+}
+<spot>else {
+  if (a == 1) {
+    return 2;
+  }</spot>
+  else {
+    return 18;
+  }
+}

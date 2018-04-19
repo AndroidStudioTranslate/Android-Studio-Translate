@@ -1,0 +1,10 @@
+@interface i: NSObject {
+  <spot>NSString *_string;</spot>
+}
+
+@property (nonatomic, copy) NSString *string;
+@end
+
+@implementation i
+<spot>@synthesize string = _string;</spot>
+@end

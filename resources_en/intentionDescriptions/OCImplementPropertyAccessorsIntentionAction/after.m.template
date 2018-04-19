@@ -1,0 +1,16 @@
+@interface i: NSObject
+
+@property (nonatomic, copy) NSString *string;
+
+@end
+
+@implementation i
+<spot>
+- (NSString *)string {
+    return nil;
+}
+
+- (void)setString:(NSString *)aString {
+}
+</spot>
+@end

@@ -1,0 +1,4 @@
+int max(int a, int b) {
+  if (<spot>a >= b</spot>) return a;
+  return b;
+}

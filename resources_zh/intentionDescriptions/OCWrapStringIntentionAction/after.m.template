@@ -1,0 +1,1 @@
+<spot>[[NSString alloc] initWithFormat: @"The number is %d"]</spot>

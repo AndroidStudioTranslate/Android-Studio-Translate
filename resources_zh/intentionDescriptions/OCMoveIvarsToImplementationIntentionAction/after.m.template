@@ -1,0 +1,9 @@
+@interface Class
+@end
+
+@implementation Class <spot>{
+  NSString* foo;
+  int bar;
+}</spot>
+
+@end

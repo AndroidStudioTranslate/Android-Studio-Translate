@@ -1,0 +1,5 @@
+<spot>typedef int *pointersArray[10];</spot>
+
+void foo() {
+  <spot>pointersArray pointersArray;</spot>
+}

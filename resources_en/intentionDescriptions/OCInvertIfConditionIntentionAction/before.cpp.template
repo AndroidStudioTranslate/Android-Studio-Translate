@@ -1,0 +1,4 @@
+<spot>if</spot>(!a)
+  foo();
+else
+  bar();

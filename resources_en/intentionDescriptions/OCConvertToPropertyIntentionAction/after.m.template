@@ -1,0 +1,16 @@
+@interface i: NSObject
+
+<spot>@property (nonatomic, copy) NSString *string</spot>;
+@end
+
+@implementation i
+-(void) m {
+   <spot>self.string = @"";</spot>
+}
+
+@end
+
+void foo() {
+   i* x;
+   <spot>x.string = @"";</spot>
+}

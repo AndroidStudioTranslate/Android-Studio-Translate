@@ -1,0 +1,8 @@
+@interface i: NSObject
+
+<spot>@property (nonatomic, copy) NSString *string</spot>;
+
+@end
+
+@implementation i
+@end

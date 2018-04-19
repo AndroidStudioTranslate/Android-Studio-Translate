@@ -1,0 +1,3 @@
+<spot>if ([self respondsToSelector: @selector(doOptionalMethod)]) {
+  x = [self doOptionalMethod];
+}</spot>

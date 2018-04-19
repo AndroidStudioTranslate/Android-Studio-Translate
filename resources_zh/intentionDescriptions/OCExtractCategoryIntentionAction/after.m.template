@@ -1,0 +1,14 @@
+@interface Class
+@end
+
+@implementation Class
+@end
+
+
+@interface Class(NewCategory)
+<spot>
+-(void) foo;
+
+@property id prop;
+</spot>
+@end
